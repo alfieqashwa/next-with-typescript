@@ -10,10 +10,7 @@ type Props = {
   title?: string;
 };
 
-export const Layout = ({
-  children,
-  title = "This is the default title",
-}: Props) => (
+const Layout = ({ children, title = "This is the default title" }: Props) => (
   <div>
     <Head>
       <title>{title}</title>
@@ -48,3 +45,5 @@ export const Layout = ({
     </Container>
   </div>
 );
+
+export default Layout;

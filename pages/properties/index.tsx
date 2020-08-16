@@ -1,5 +1,5 @@
 import { Heading, Wrap } from "@chakra-ui/core";
-import { Layout } from "../../components/Layout";
+import Layout from "../../components/Layout";
 import { properties } from "../../utils/sample-data";
 import { PropertySummary } from "../../components/PropertySummary";
 import { NextChakraLink } from "../../components/NextChakraLink";

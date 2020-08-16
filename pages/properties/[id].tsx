@@ -1,5 +1,5 @@
 import { Property } from "../../interfaces/Property";
-import { Layout } from "../../components/Layout";
+import Layout from "../../components/Layout";
 import {
   Box,
   Flex,

@@ -1,5 +1,5 @@
 import { Box, Code, Text, Link, VStack, Grid } from "@chakra-ui/core";
-import { Layout } from "../components/Layout";
+import Layout from "../components/Layout";
 import { Logo } from "../components/Logo";
 import { NextChakraLink } from "../components/NextChakraLink";
 
