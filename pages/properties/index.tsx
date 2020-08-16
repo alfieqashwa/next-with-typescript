@@ -6,7 +6,11 @@ import { NextChakraLink } from "../../components/NextChakraLink";
 
 const PropertiesPage = () => (
   <Layout title="Next.js + TypeScript example | View properties">
-    <Heading mb={4}>Available this weekend</Heading>
+    <Heading mb={2}>
+      Available this weekend
+      <br />
+    </Heading>
+    <Heading mb={4}>Total: {properties.length} properties</Heading>
     <Wrap>
       {properties.map(property => (
         <NextChakraLink
