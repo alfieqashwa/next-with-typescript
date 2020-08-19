@@ -1,12 +1,4 @@
-import {
-  Box,
-  Center,
-  Skeleton,
-  Stack,
-  HStack,
-  Divider,
-  Text,
-} from "@chakra-ui/core";
+import { Box, Center, Skeleton, Stack, HStack, Divider } from "@chakra-ui/core";
 
 export const Hero = () => (
   <HStack>

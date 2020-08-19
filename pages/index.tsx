@@ -1,6 +1,6 @@
 import Layout from "@components/Layout";
 import { Hero, Section1 } from "@components/HomePage";
-import { HStack, Box, Center, Divider } from "@chakra-ui/core";
+import { Divider } from "@chakra-ui/core";
 
 const IndexPage = () => (
   <Layout title="Home | ASEC Example">
