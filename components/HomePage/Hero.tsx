@@ -20,7 +20,7 @@ export const Hero = () => (
       <Skeleton startColor="pink.500" endColor="orange.500" w="200" h="40px" />
     </Stack>
     <Divider orientation="vertical" mx={2} />
-    <Center w={2 / 3} h="400px" bg="tomato" color="white" rounded="md">
+    <Center w={2 / 3} h="400px" bg="tomato" color="white" borderRadius="md">
       <Box as="span" fontWeight="bold" fontSize="lg">
         carousel
       </Box>

@@ -3,7 +3,7 @@ import { Hero, Section1 } from "@components/HomePage";
 import { HStack, Box, Center, Divider } from "@chakra-ui/core";
 
 const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <Layout title="Home | ASEC Example">
     <Hero />
     <Divider orientation="horizontal" my={4} />
     <Section1 />
