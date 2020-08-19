@@ -4,7 +4,7 @@ import { Property } from "../interfaces/Property";
 //  Set seed so generated data is always the same
 faker.seed(4);
 
-const NO_PROPERTIES_TO_GENERATE = 2020;
+const NO_PROPERTIES_TO_GENERATE = 20;
 
 const additionalValues = [
   {

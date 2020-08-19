@@ -1,8 +1,8 @@
 import { Heading, Wrap } from "@chakra-ui/core";
-import Layout from "../../components/Layout";
-import { properties } from "../../utils/sample-data";
-import { PropertySummary } from "../../components/PropertySummary";
-import { NextChakraLink } from "../../components/NextChakraLink";
+import Layout from "@components/Layout";
+import { properties } from "@utils/sample-data";
+import { PropertySummary } from "@components/PropertySummary";
+import { NextChakraLink } from "@components/NextChakraLink";
 
 const PropertiesPage = () => (
   <Layout title="Next.js + TypeScript example | View properties">
